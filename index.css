@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+*{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    transition: .2s;
+    color: rgb(40, 40, 40);
+}
+.main, body{
+    background-color: rgb(245, 245, 250);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.hover{
+    margin: 50px auto;
+    padding: 16px;
+    padding-left: 32px;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.hover:hover{
+    transition: all .3s;
+}
+.light-hover{
+    box-shadow: 0px 3px 5px 0px rgba(31, 31, 56, 0.4);
+}
+.light-hover:hover{
+    box-shadow: 0px 15px 25px 0px rgba(31, 31, 56, 0.2);
+}
+.light-hover:hover *{
+    transition: .2s;
+    color: rgb(222, 138, 226);
+}
+
+.light-hover{
+    box-shadow: 0px 3px 5px 0px rgba(31, 31, 56, 0.4);
+}
+.light-hover:hover{
+    box-shadow: 0px 15px 25px 0px rgba(31, 31, 56, 0.2);
+    transform: translateY(-5px);
+}
+.light-hover:hover *{
+    transition: .2s;
+    color: rgb(222, 138, 226);
+}
+
